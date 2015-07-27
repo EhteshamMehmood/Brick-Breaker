@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_styled_ver"
+   
+    tools:context="com.mutafaf.myfirstgame.FullscreenActivity" >
+   
+    <RelativeLayout
+           android:id="@+id/relativeLayout1"
+           android:layout_width="match_parent"
+           android:layout_height="317dp"
+           android:layout_marginTop="100dp" 
+		   android:gravity="center" >
+          
+        <Button
+               android:id="@+id/btn_play"
+               android:layout_width="180dp"
+               android:layout_height="50dp"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="33dp"
+               android:background="@drawable/buttonshape"
+               android:shadowColor="#A8A8A8"
+               android:shadowDx="0"
+               android:shadowDy="0"
+               android:shadowRadius="5"
+               android:text="@string/play_button"
+               android:textColor="#FFFFFF"
+               android:textSize="30sp" 
+               android:onClick="gamePlayFunc"/>
+
+
+           <Button
+               android:id="@+id/btn_highScore"
+               android:layout_width="180dp"
+               android:layout_height="50dp"
+               android:layout_alignLeft="@+id/btn_play"
+               android:layout_below="@+id/btn_play"
+               android:layout_marginTop="17dp"
+               android:background="@drawable/buttonshape"
+               android:shadowColor="#A8A8A8"
+               android:shadowDx="0"
+               android:shadowDy="0"
+               android:shadowRadius="5"
+               android:text="@string/highScore_button"
+               android:textColor="#FFFFFF"
+               android:textSize="30sp" 
+               android:onClick="highScoreFunc"/>
+
+           <Button
+               android:id="@+id/btn_help"
+               android:layout_width="180dp"
+               android:layout_height="50dp"
+               android:layout_alignLeft="@+id/btn_play"
+               android:layout_below="@+id/btn_play"
+               android:layout_marginTop="88dp"
+               android:background="@drawable/buttonshape"
+               android:onClick="helpFunc"
+               android:shadowColor="#A8A8A8"
+               android:shadowDx="0"
+               android:shadowDy="0"
+               android:shadowRadius="5"
+               android:text="@string/help_button"
+               android:textColor="#FFFFFF"
+               android:textSize="30sp" />
+
+           <Button
+               android:id="@+id/btn_quit"
+               android:layout_width="180dp"
+               android:layout_height="50dp"
+               android:layout_alignLeft="@+id/btn_help"
+               android:layout_below="@+id/btn_help"
+               android:layout_marginTop="18dp"
+               android:background="@drawable/buttonshape"
+               android:shadowColor="#A8A8A8"
+               android:shadowDx="0"
+               android:shadowDy="0"
+               android:shadowRadius="5"
+               android:text="@string/settings_button"
+               android:textColor="#FFFFFF"
+               android:textSize="30sp"
+               android:onClick="quitFunc" />
+  
+ 
+   </RelativeLayout>
+
+</FrameLayout>

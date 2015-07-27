@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:fitsSystemWindows="true" 
+    tools:context="com.example.game.GameActivity" >
+
+    <!--
+         This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows.
+    -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fullscreen_content"
+	    android:background="@drawable/bg_styled_ver" >
+    <RelativeLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent">        
+        
+    
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent" >
+
+                 </LinearLayout>
+                 
+        <com.example.game.GameSurfaceView 
+            android:layout_width="match_parent"
+			android:layout_height="700dp"
+            />
+
+       <!--  <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="32dp"
+            android:layout_marginRight="64dp"
+            android:onClick="moveStickRightFunc"
+            android:src="@drawable/arrow_right" /-->>
+<!-- 
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/imageButton1"
+            android:layout_marginLeft="64dp"
+            android:layout_marginBottom="32dp"
+            android:onClick="moveStickLeftFunc"
+            android:src="@drawable/arrow_left" /
+        -->>
+    </RelativeLayout>
+    
+    </FrameLayout>
+
+</FrameLayout>

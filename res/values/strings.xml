@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Break the Brick</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="play_button">Play</string>
+    <string name="help_button">Help</string>
+    <string name="highScore_button">High Score</string>
+    <string name="settings_button">Settings</string>
+    <string name="instructions">How to play</string>
+    <string name="instructionString">Tap right arrow to move\nthe sliding bar right\nTap left arrow to move \nthe sliding bar left.</string>
+    <string name="title_activity_full_scr">FullScrActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <string name="title_activity_high_score">HighScoreActivity</string>
+    <string name="high_score_dummy">Ali\t34\nAhmad\t32\nAnwar\t30\nFaraz\t24\n</string>
+    <string name="title_activity_game">GameSurfaceViewActivity</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="title_activity_game_activity">GameActivity</string>
+	<string name="url">url</string>
+	<string name="messenger">msg</string>
+	
+</resources>
